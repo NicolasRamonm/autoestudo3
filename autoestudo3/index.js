@@ -34,7 +34,7 @@ const larguraJogo = 700; //Altura da página
         let assets = [alien, teclado, fogo, plataforma, moeda, placar]
         
 
-        function preload() { //carrega os assetes
+        function preload() { //carrega os assets
             this.load.image('background', 'assets/bg.png');
             this.load.image('alien1', 'assets/alien1.png');
             this.load.image('turbo', 'assets/turbo.png');
